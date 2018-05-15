@@ -12,8 +12,6 @@ public class CapitalizeTest {
 	String capital = " ? Sentence With Words";
 	assertEquals(Capitalize.makeIt(notCapital), capital);
 	assertNotEquals(Capitalize.makeIt(notCapital), notCapital);
-	assertEquals(Capitalize.makeIt2(notCapital), capital);
-	assertNotEquals(Capitalize.makeIt2(notCapital), notCapital);
     }
 
     @Test
@@ -22,7 +20,5 @@ public class CapitalizeTest {
 	String capital = "A Sentence With Words";
 	assertEquals(Capitalize.makeIt(notCapital), capital);
 	assertNotEquals(Capitalize.makeIt(notCapital), notCapital);
-	assertEquals(Capitalize.makeIt2(notCapital), capital);
-	assertNotEquals(Capitalize.makeIt2(notCapital), notCapital);
     }
 }
