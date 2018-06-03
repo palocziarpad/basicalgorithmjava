@@ -25,4 +25,8 @@ package com.exercise;
 //Original : https://github.com/StephenGrider/AlgoCasts/blob/master/exercises/steps/index.js
 public class Steps {
 
+    public static String createSteps(int i) {
+	return "";
+    }
+
 }

@@ -7,7 +7,7 @@ package com.exercise;
  * “FizzBuzz”.
  */
 public class FizzBuzz {
-    public String[] makeIt() {
+    public static String[] makeIt() {
 	String[] fizzbuzz = new String[100];
 	return fizzbuzz;
     }

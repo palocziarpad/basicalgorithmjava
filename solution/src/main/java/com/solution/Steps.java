@@ -27,6 +27,7 @@ public class Steps {
 
     public static String createSteps(int stepsNumber) {
 	String returnValue = "";
+	String linesepa = System.getProperty("line.separator");
 	for (int i = 0; i < stepsNumber; i++) {
 	    String line = "";
 	    for (int j = 0; j < stepsNumber; j++) {
@@ -36,7 +37,7 @@ public class Steps {
 		    line += " ";
 		}
 	    }
-	    returnValue += line + "\n";
+	    returnValue += line + linesepa;
 	}
 	return returnValue;
     }

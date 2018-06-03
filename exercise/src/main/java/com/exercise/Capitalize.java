@@ -18,6 +18,7 @@ package com.exercise;
 public class Capitalize {
 
     public static String makeIt(String sentence) {
+	return "";
 
     }
 

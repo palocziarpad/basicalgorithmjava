@@ -9,13 +9,11 @@ public class StepsTest {
     public void testTwoSteps() {
 	String twoSteps = "# \n##\n";
 	assertEquals(Steps.createSteps(2), twoSteps);
-	assertEquals(Steps.createSteps2(2, 0, ""), twoSteps);
     }
 
     @Test
     public void test() {
 	String threeSteps = "#  \n## \n###\n";
 	assertEquals(Steps.createSteps(3), threeSteps);
-	assertEquals(Steps.createSteps2(3, 0, ""), threeSteps);
     }
 }
