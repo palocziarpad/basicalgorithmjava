@@ -1,4 +1,4 @@
-package com.solution;
+package com.exercise;
 
 import static org.testng.Assert.assertEquals;
 
