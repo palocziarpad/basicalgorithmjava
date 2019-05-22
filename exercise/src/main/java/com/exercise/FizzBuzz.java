@@ -2,12 +2,14 @@ package com.exercise;
 
 /**
  * "Write a program that prints the numbers from 1 to 100. But for multiples of
- * three print “Fizz” instead of the number and for the multiples of five print
- * “Buzz”. For numbers which are multiples of both three and five print
- * “FizzBuzz”.
+ * three print Â“FizzÂ” instead of the number and for the multiples of five print
+ * Â“BuzzÂ”. For numbers which are multiples of both three and five print
+ * Â“FizzBuzzÂ”.
  */
 public class FizzBuzz {
-    public static String[] makeIt() {
+ 
+ 
+ public static String[] makeIt() {
 	String[] fizzbuzz = new String[100];
 	return fizzbuzz;
     }
