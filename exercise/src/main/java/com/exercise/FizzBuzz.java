@@ -7,9 +7,15 @@ package com.exercise;
  * “FizzBuzz”.
  */
 public class FizzBuzz {
-    public static String[] makeIt() {
+ 
+ 
+ public static String[] makeIt() {
 	String[] fizzbuzz = new String[100];
 	return fizzbuzz;
     }
+
+
+
+
 
 }
