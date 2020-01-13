@@ -3,7 +3,7 @@
 Based on this project:
 https://github.com/StephenGrider/AlgoCasts
 
-I have created my version for algorithm exorcise in Java.
+I have created my version for algorithm exercise in Java.
 
 Either use the exercise project that contains the skeleton for the the algorithm 
 and the unit test if you want to create your own version.
